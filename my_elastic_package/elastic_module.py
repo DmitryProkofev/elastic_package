@@ -1,6 +1,7 @@
 from elasticsearch import Elasticsearch
 from elasticsearch.helpers import bulk
 from abc import ABC, abstractmethod
+import os
 
 
 class Connector:
